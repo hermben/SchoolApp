@@ -19,7 +19,7 @@ namespace SchoolFormApp
 
         private void btnPushToTest_Click(object sender, EventArgs e)
         {
-            var testSchool = new School();
+            var testSchool = new SchoolLibrary.School();
             testSchool.Name = txtName.Text;
             testSchool.Address = txtAddress.Text;
             testSchool.City = txtCity.Text;

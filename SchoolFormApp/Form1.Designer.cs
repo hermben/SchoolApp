@@ -166,7 +166,7 @@ namespace SchoolFormApp
             this.BtnPushToTest.TabIndex = 14;
             this.BtnPushToTest.Text = "Push to test";
             this.BtnPushToTest.UseVisualStyleBackColor = true;
-            this.BtnPushToTest.Click += new System.EventHandler(this.button1_Click);
+            this.BtnPushToTest.Click += new System.EventHandler(this.btnPushToTest_Click);
             // 
             // Form1
             // 
